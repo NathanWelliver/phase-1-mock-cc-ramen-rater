@@ -44,12 +44,22 @@
     <label for="image">Image: </label>
     <input type="text" name="image" id="new-image" />
     <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="n-rating" />
+    <label for="n-comment">Comment: </label>
+    <textarea name="new-comment" id="n-comment"></textarea>
+    <input id="submit" type="submit" value="Create" />
+  </form>
+
+  <!-- Edit Ramen Form-->
+  <form id="edit-ramen">
+    <h4>Update the Featured Ramen</h4>
+    <label for="rating">Rating: </label>
     <input type="number" name="rating" id="new-rating" />
     <label for="new-comment">Comment: </label>
     <textarea name="new-comment" id="new-comment"></textarea>
-    <input type="submit" value="Create" />
+    <input type="submit" value="Update" />
   </form>
-
+  <button id="delete">Delete</button>
 </body>
 
 </html>
